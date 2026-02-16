@@ -244,6 +244,16 @@
             font-size: 1.1rem;
             font-weight: 500;
         }
+
+        .detail-content a {
+            transition: all 0.3s ease;
+        }
+
+        .detail-content a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            opacity: 0.9;
+        }
         
         .hosts {
             text-align: center;
@@ -296,6 +306,11 @@
             .event-details, .hosts { padding: 25px; }
             .detail-item { flex-direction: column; text-align: center; }
             .detail-icon { margin-right: 0; margin-bottom: 10px; }
+            .detail-content a { 
+                display: block !important; 
+                margin: 8px 0 !important; 
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -374,8 +389,8 @@
                 <div class="detail-item">
                     <div class="detail-icon">☬</div>
                     <div class="detail-content">
-                        <h3>Morning Program</h3>
-                        <p>Sukhmani Sahib Path & Kirtan<br>Starts at 9:00 AM</p>
+                        <h3>Sukhmani Sahib Path</h3>
+                        <p>Starts at 11:00 AM Sharp<br>Followed by Kirtan</p>
                     </div>
                 </div>
 
@@ -383,7 +398,7 @@
                     <div class="detail-icon">🎯</div>
                     <div class="detail-content">
                         <h3>Naming Ceremony</h3>
-                        <p>Around 11:00 AM<br>(After Path Completion)</p>
+                        <p>After Path Completion<br>(Approximately 12:30 PM)</p>
                     </div>
                 </div>
 
@@ -391,7 +406,7 @@
                     <div class="detail-icon">🍽️</div>
                     <div class="detail-content">
                         <h3>Langar (Community Meal)</h3>
-                        <p>12:00 PM onwards<br>All are welcome</p>
+                        <p>1:30 PM onwards<br>All are welcome</p>
                     </div>
                 </div>
 
@@ -399,7 +414,10 @@
                     <div class="detail-icon">🏛️</div>
                     <div class="detail-content">
                         <h3>Venue</h3>
-                        <p>Gurudwara Jivan Prakash<br>Model Town Phase 1, Bathinda</p>
+                        <p>Gurudwara Jivan Prakash<br>Model Town Phase 1, Bathinda, Punjab</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Gurudwara+Jivan+Prakash+Model+Town+Phase+1+Bathinda+Punjab" target="_blank" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background: #1976d2; color: white; text-decoration: none; border-radius: 10px; font-weight: 600; transition: background 0.3s ease;">
+                            📍 Get Directions on Google Maps
+                        </a>
                     </div>
                 </div>
 
@@ -407,7 +425,13 @@
                     <div class="detail-icon">📞</div>
                     <div class="detail-content">
                         <h3>Contact & RSVP</h3>
-                        <p>For any queries, please contact:<br>Sahni Family</p>
+                        <p>For any queries, please contact:</p>
+                        <a href="tel:+917888700559" style="display: inline-block; margin-top: 8px; padding: 8px 16px; background: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem;">
+                            📱 7888700559
+                        </a>
+                        <a href="https://wa.me/917888700559?text=Waheguru%20Ji%20Ka%20Khalsa!%20I%20would%20like%20to%20confirm%20my%20attendance%20for%20the%20Sukhmani%20Sahib%20Path" target="_blank" style="display: inline-block; margin-top: 8px; margin-left: 10px; padding: 8px 16px; background: #25D366; color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">
+                            💬 WhatsApp
+                        </a>
                     </div>
                 </div>
 
